@@ -1,0 +1,99 @@
+body {
+    background: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor_principal {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 12%;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.contenedor_formulario {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.lbcontraseña {
+    margin-top: 30px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #57b6ff;
+}
+
+.contenedor_botones {
+    text-align: center;
+}
+
+.btn_ingreso,
+.btn_cancelar {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn_ingreso {
+    background-color: #57b6ff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn_ingreso:hover {
+    background-color: #1e87d8;
+}
+
+.btn_cancelar {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn_cancelar:hover {
+    background-color: #bfbfbf;
+}
+
+.mensajeError {
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 10px;
+}
